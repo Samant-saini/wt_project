@@ -7,5 +7,5 @@ cloudinary.v2.config({
 })
   
 app.listen(process.env.PORT,()=>{
-    console.log(`server is listen at the port no ${process.env.PORT}`);
+    console.log(`server is liat the port no ${process.env.PORT}`);
 })

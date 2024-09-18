@@ -26,7 +26,7 @@ const messageSchema=new mongoose.Schema({
     message:{
         type:String,
         required:true,
-        minLength:[11,"phone number cantain atleast 10 characters"]
+        minLength:[11,"message cantain atleast 11 characters"]
     },
 })
 export const  Message=mongoose.model("Message",messageSchema)
