@@ -3,7 +3,7 @@
  import  {Appointment} from "../models/appointmentSchema.js";
  import {User} from "../models/userSchema.js";
 export const postAppointment = catchAsyncErrors(async (req, res, next) => {
-    // Add this line to check if req.user is populated
+    
 
     const {
         firstName,
